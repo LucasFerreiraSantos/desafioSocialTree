@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: "Poppins";
+}
+
+#fotoPerfil {
+    border-radius: 50%;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border: 2px solid #BB99DD;
+}
+
+span {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 30px;
+    color: #BB99DD;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 800px;
+    margin-top: .8rem;
+    text-align: center;
+    padding: 10px 10px;
+    border: 2px solid #BB99DD;
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    margin: auto;
+    padding: 60px;
+    justify-content: center;
+    gap: 1rem;
+}
+
